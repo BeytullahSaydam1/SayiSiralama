@@ -6,7 +6,7 @@ function App() {
   const [inputValue, setInputValue] = useState('');
   const [sortedAscending, setSortedAscending] = useState([]);
   const [sortedDescending, setSortedDescending] = useState([]);
-  //Ekleme işareti
+  //Ekleme işlemi
   const addNumber = () => {
     if (!isNaN(inputValue) && inputValue !== '') {
       const newNumber = parseInt(inputValue);
